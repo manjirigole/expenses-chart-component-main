@@ -1,0 +1,100 @@
+body {
+  background-color: hsl(26, 66%, 93%);
+}
+.container {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-family: "DM Sans", sans-serif;
+  flex-direction: column;
+  gap: 1rem;
+}
+.balance-div {
+  background-color: hsl(10, 79%, 65%);
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+  align-items: center;
+  padding: 1rem;
+  height: 100px;
+  border-radius: 1rem;
+  width: 400px;
+  max-width: 100%;
+}
+.balance-div {
+  color: hsl(26, 66%, 93%);
+}
+.balance-info p {
+  margin: 0;
+}
+.balance {
+  font-weight: 700;
+  font-size: 25px;
+}
+.graph-card {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 1rem;
+}
+.spending-div {
+  color: hsl(25, 47%, 15%);
+  font-weight: 800;
+  font-size: 25px;
+  padding: 1rem;
+  width: 400px;
+  max-width: 100%;
+}
+.bar-graph-grid {
+  display: grid;
+  grid-template-columns: repeat(7, auto);
+  column-gap: 1rem;
+  align-items: end;
+  padding: 1.5rem;
+  border-bottom: 1px solid hsl(28, 10%, 53%);
+}
+.bar {
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.day {
+  text-align: center;
+  color: hsl(28, 10%, 53%);
+}
+.total-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  color: hsl(28, 10%, 53%);
+}
+.total-div p {
+  padding: 0;
+  margin: 5px;
+}
+.total {
+  color: hsl(25, 47%, 15%);
+  font-weight: 800;
+  font-size: 40px;
+}
+.rate {
+  color: hsl(25, 47%, 15%);
+  font-weight: 800;
+  font-size: 18px;
+}
+.bar-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+  color: hsl(26, 66%, 93%);
+  text-align: center;
+}
+.amount-wrapper {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(25, 47%, 15%);
+  border-radius: 5px;
+  font-weight: 600;
+}

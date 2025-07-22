@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Expenses chart component</title>
+
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <!--balance div-->
+        <div class="balance-div">
+          <div class="balance-info">
+            <p class="my-balance">My Balance</p>
+            <p class="balance">$921.48</p>
+          </div>
+          <div class="logo-div">
+            <img src="./images/logo.svg" class="logo" alt="logo" />
+          </div>
+        </div>
+      </div>
+      <!--bar-graph div-->
+      <div class="graph-card">
+        <div class="bar-graph-div">
+          <div class="spending-div">
+            <p>Spending - Last 7 days</p>
+          </div>
+          <div class="bar-graph-grid">
+            <template class="graph-template">
+              <div class="bar-wrapper">
+                <span class="amount-wrapper"></span>
+                <div class="bar"></div>
+                <p class="day"></p>
+              </div>
+            </template>
+            <template class="graph-template">
+              <div class="bar-wrapper">
+                <span class="amount-wrapper">a</span>
+                <div class="bar"></div>
+                <p class="day"></p>
+              </div>
+            </template>
+            <template class="graph-template">
+              <div class="bar-wrapper">
+                <span class="amount-wrapper">a</span>
+                <div class="bar"></div>
+                <p class="day"></p>
+              </div>
+            </template>
+            <template class="graph-template">
+              <div class="bar-wrapper">
+                <span class="amount-wrapper">a</span>
+                <div class="bar"></div>
+                <p class="day"></p>
+              </div>
+            </template>
+            <template class="graph-template">
+              <div class="bar-wrapper">
+                <span class="amount-wrapper">a</span>
+                <div class="bar"></div>
+                <p class="day"></p>
+              </div>
+            </template>
+            <template class="graph-template">
+              <div class="bar-wrapper">
+                <span class="amount-wrapper">a</span>
+                <div class="bar"></div>
+                <p class="day"></p>
+              </div>
+            </template>
+            <template class="graph-template">
+              <div class="bar-wrapper">
+                <span class="amount-wrapper">a</span>
+                <div class="bar"></div>
+                <p class="day"></p>
+              </div>
+            </template>
+          </div>
+        </div>
+        <div class="total-div">
+          <div class="current-month">
+            <p>Total this month</p>
+            <p class="total"></p>
+          </div>
+          <div class="last-month">
+            <p class="rate">+2.4%</p>
+            <p>from last month</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
